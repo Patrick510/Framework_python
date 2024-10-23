@@ -39,3 +39,28 @@ https://go.microsoft.com/fwlink/?LinkID=135170. Deseja alterar a política de ex
 [S] Sim  [A] Sim para Todos  [N] Não  [T] Não para Todos  [U] Suspender  [?] Ajuda (o padrão é "N"): S
 PS C:\Windows\system32>
 ```
+
+# CONFIGURANDO O GITHUB
+
+```
+PS C:\estudos\4 PERIODO\frameworks> git init
+Initialized empty Git repository in C:/estudos/4 PERIODO/frameworks/.git/
+PS C:\estudos\4 PERIODO\frameworks> git add README.md
+PS C:\estudos\4 PERIODO\frameworks> git commit -m "first-commit"
+[master (root-commit) 2062aca] first-commit
+ 1 file changed, 41 insertions(+)
+ create mode 100644 README.md
+PS C:\estudos\4 PERIODO\frameworks> git branch -M main
+PS C:\estudos\4 PERIODO\frameworks> git remote add origin https://github.com/Patrick510/Framework_python.git
+PS C:\estudos\4 PERIODO\frameworks> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.02 KiB | 1.02 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Patrick510/Framework_python.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\estudos\4 PERIODO\frameworks>
+```
